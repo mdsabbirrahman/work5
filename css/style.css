@@ -1,0 +1,39 @@
+/* universal selector */
+* {
+    text-align: center;
+    color: white;
+    /* id selector */
+}
+#admin-box{
+    background-color: fuchsia;
+    width: 500px;
+}
+/* descendant selector */
+form input{
+    width:90%
+}
+p a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* attribute selector */
+input[type="submit"]{
+    width:50%;
+    color:tomato;
+}
+p b {
+    color: chocolate;
+}
+/* spedor class selector */
+input[type="submit"]:hover{
+    background-color: greenyellow;
+    cursor: pointer;
+    color: fuchsia;
+}
+div{
+   margin-left: auto; 
+   margin-right: auto;
+}
+.sk{
+    color: darkgreen;
+}
